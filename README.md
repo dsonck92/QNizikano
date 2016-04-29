@@ -39,7 +39,7 @@ The android app identifies itself by a custom UserAgent. The user agent consists
 
 The program first navigates to the root of the server with the special UserAgent string. The root page will then issue a 302 to the room page and add a P= argument. This P= argument is stored and used for successive page navigation as this indicates the session ID. It is currently unknown whether the UserAgent IDs really need to be sent with each request. The android app does this but it seems like that defeats the purpose of the P= argument
 
-Resource downloading is done by requesting a download list file. This returns a TSV file with <basename>\t<package-key>\t<number>. The <basename>s indicate which files can be found in what <package>. If the basename begins with bgm_, it means that the file is called as it is indicated. if it does not start with bgm_, it is considered a voice_ file. All files are .ogg files and each package is a zip file. If any file is missing, the corresponding package is downloaded and extracted in memory.
+Resource downloading is done by requesting a download list file. This returns a TSV file with [basename]\t[package-key]\t[number]. The [basename]s indicate which files can be found in what [package]. If the basename begins with bgm_, it means that the file is called as it is indicated. if it does not start with bgm_, it is considered a voice_ file. All files are .ogg files and each package is a zip file. If any file is missing, the corresponding package is downloaded and extracted in memory.
 
 As of this day, not all resources are noted inside the TSV file. Most notably bgm_0[1-8] and all sound effect files se_01 - se_23. A script is provided to download these from the Japanese PC version.
 
