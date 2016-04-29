@@ -2,6 +2,8 @@
 Desktop version of the Android Nizikano (aka Dream Girlfriend) app (US version). Note that this app is *not* official and experience may vary depending on compatibility between the server and app emulation.
 
 ## About
+Nizikano or "Dream Girlfriend" is an app where the user receives a girlfriend that he (or she) can customize to his (or her) liking. By performing various actions, she will receive experience, different personalities and unlock other clothing. It is considered a cute game to pass time.
+
 This Qt program attempts to imitate the Android app for Nizikano or "Dream Girlfriend". It allows playing/accessing this game on PCs that Qt supports.
 
 ## Features
