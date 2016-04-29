@@ -16,6 +16,7 @@ This Qt program attempts to imitate the Android app for Nizikano or "Dream Girlf
 
 ## Not implemented
 
+* Correct random User ID generation
 * Live2D view
 
 ## How to build
